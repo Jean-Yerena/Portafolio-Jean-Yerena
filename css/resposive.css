@@ -1,16 +1,30 @@
-@media (max-width: 1433px){
-    .home-text h3.desaFront{
+@media (max-width: 1433px) {
+    .home-text h3.desaFront {
         font-size: 2.5rem;
     }
 
     .home-text h3.desaFront span {
-        font-size: 2.8rem;     
+        font-size: 2.8rem;
     }
 }
 
 /*Portatil*/
 
 @media (max-width: 1366px) {
+
+    #header {
+        height: 60px;
+    }
+
+    #header .menu ul a {
+        font-size: 16px;
+    }
+
+    #header .logo {
+        width: 50px;
+    }
+
+
     .home .home-img img {
         height: 415px;
     }
@@ -18,7 +32,22 @@
     .home-text h1 {
         font-size: 4.5rem;
     }
+
+    /*About*/
+    .about-img img {
+        max-width: 380px;
+    }
+
+    .about-text h2 {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+    }
+
+    .about-text p {
+        margin-bottom: 2rem;
+    }
 }
+
 /*Fin Portatil*/
 
 @media (max-width: 1254px) {
@@ -49,12 +78,12 @@
         font-size: 2.5rem;
     }
 
-    .home-text h3.desaFront{
+    .home-text h3.desaFront {
         font-size: 2rem;
     }
 
     .home-text h3.desaFront span {
-        font-size: 2.3rem;     
+        font-size: 2.3rem;
     }
 
     .home-text p {
@@ -73,6 +102,11 @@
     .home .home-img img {
         height: 400px;
     }
+
+    /*About*/
+    .about-text p {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 1137px) {
@@ -83,6 +117,11 @@
 
     section {
         padding: 80px 6%;
+    }
+
+    /*About*/
+    .about-img img {
+        max-width: 370px;
     }
 }
 
@@ -98,6 +137,11 @@
 
     .home .home-img img {
         height: 380px;
+    }
+
+    /*About*/
+    .about-text h2 {
+        font-size: 2rem;
     }
 }
 
@@ -116,6 +160,15 @@
 
     /*Home*/
 
+
+    .home {
+        gap: 2rem;
+    }
+
+    .home .home-img img {
+        height: 360px;
+    }
+
     .home-text h3 {
         font-size: 2rem;
     }
@@ -124,13 +177,13 @@
         font-size: 3.125rem;
     }
 
-    .home-text h3.desaFront{
+    .home-text h3.desaFront {
         font-size: 1.9rem;
-        margin-bottom: 15px;   
+        margin-bottom: 15px;
     }
 
     .home-text h3.desaFront span {
-        font-size: 2rem;  
+        font-size: 2rem;
     }
 
     .button a {
@@ -142,18 +195,19 @@
     .button .btn2 {
         padding: 6px 25px;
     }
-}
 
-@media (max-width: 992px) {
-
-    .home {
-        gap: 2rem;
+    /*About*/
+    .about-img img {
+        max-width: 360px;
     }
 
-    .home .home-img img {
-        height: 360px;
+
+    .about-text .btn {
+        font-size: 1rem;
+        padding: 8px 25px;
     }
 }
+
 
 
 @media (max-width: 892px) {
@@ -169,12 +223,30 @@
     .button .btn2 {
         margin-right: 5px;
     }
+
+    /*About*/
+    .about-img img {
+        max-width: 353px;
+    }
+
+    .about-text p {
+        font-size: 0.9rem;
+    }
 }
 
 
 @media (max-width: 845px) {
     .home .home-img img {
         height: 340px;
+    }
+
+    /*About*/
+    .about-text h2 {
+        margin-bottom: 20px;
+    }
+
+    .about-text p {
+        margin-bottom: 1rem;
     }
 }
 
@@ -191,13 +263,13 @@
         font-size: 2.3rem;
     }
 
-    .home-text h3.desaFront{
+    .home-text h3.desaFront {
         font-size: 1.5rem;
-        margin-bottom: 15px;   
+        margin-bottom: 15px;
     }
 
     .home-text h3.desaFront span {
-        font-size: 1.6rem;  
+        font-size: 1.6rem;
     }
 
     .button a {
@@ -208,6 +280,21 @@
 
     .button .btn2 {
         padding: 6px 20px;
+    }
+
+    /*About*/
+    .about-text h2 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .about-img img {
+        max-width: 342px;
+    }
+
+    .about-text .btn {
+        font-size: 0.9rem;
+        padding: 8px 20px;
     }
 }
 
@@ -232,13 +319,13 @@
         font-size: 2.2rem;
     }
 
-    .home-text h3.desaFront{
+    .home-text h3.desaFront {
         font-size: 1.4rem;
-        margin-bottom: 15px;   
+        margin-bottom: 15px;
     }
 
     .home-text h3.desaFront span {
-        font-size: 1.5rem;  
+        font-size: 1.5rem;
     }
 
     .button a {
@@ -257,6 +344,27 @@
 
     .contact {
         display: none;
+    }
+
+    /*About*/
+
+    .about {
+        grid-template-columns: auto 1fr;
+        gap: 1rem;
+    }
+
+    .about-text h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    .about-img img {
+        max-width: 300px;
+    }
+
+    .about-text .btn {
+        font-size: 0.9rem;
+        padding: 6px 20px;
     }
 }
 
@@ -285,6 +393,12 @@
     section {
         padding: 80px 10%;
     }
+
+    /*About*/
+    .about {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 }
 
 @media (max-width: 505px) {
@@ -303,12 +417,13 @@
     section {
         padding: 80px 8%;
     }
+
+    /*About*/
+    .about-img img {
+        max-width: 280px;
+    }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 380px) {}
 
-}
-
-@media (max-width: 350px) {
-
-}
+@media (max-width: 350px) {}
