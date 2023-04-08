@@ -338,13 +338,7 @@
         padding: 4px 20px;
     }
 
-    .skills {
-        display: none;
-    }
 
-    .contact {
-        display: none;
-    }
 
     /*About*/
 
@@ -421,6 +415,150 @@
     /*About*/
     .about-img img {
         max-width: 280px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    #header {
+        padding: 0 6%;
+    }
+
+    section {
+        padding: 50px 6%;
+    }
+
+
+    .home {
+        padding-top: 80px;
+    }
+
+    /*Projects*/
+    .portfolio-text h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    .portfolio-text p {
+        font-size: 0.9rem;
+    }
+
+    .cards {
+        grid-template-columns: auto;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-img img {
+        width: 100%;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+    .card-body h4 {
+        font-size: 1rem;
+        margin: 0px 0 10px 0;
+    }
+
+    .card-body p {
+        font-size: 0.85rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .card .btn {
+        font-size: 0.9rem;
+        padding: 6px 20px;
+    }
+
+    /*Habilidades*/
+    .skills-text h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+
+    .contenedor h3 {
+        font-size: 1.1rem;
+    }
+
+    .contenido {
+        grid-template-columns: initial;
+    }
+
+    .info-skills {
+        font-size: 0.9rem;
+    }
+
+    .info-skills p {
+        font-size: 0.8rem;
+    }
+
+    .contenido2 .info-skills .icon,
+    .info-skills .icon {
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenido2 {
+        grid-template-columns: initial;
+    }
+
+    .info-skills .izq {
+        padding-right: 0px;
+    }
+
+    /*Contact*/
+    .contact h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    .card_title {
+        font-size: 1rem;
+    }
+
+    .contact_container {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .contact_title {
+        font-size: 1.1rem;
+        margin: 20px 0;
+    }
+
+    .contact_info {
+        justify-content: center;
+    }
+
+    .contact_form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .contact_form_tag {
+        font-size: 0.95rem;
+        top: -0.95rem;
+    }
+
+    .btn_form {
+        font-size: 0.9rem;
+        padding: 6px 20px;
+        align-items: center;
+        display: flex;
+    }
+
+    .enviarIcon {
+        margin-left: 5px;
     }
 }
 
