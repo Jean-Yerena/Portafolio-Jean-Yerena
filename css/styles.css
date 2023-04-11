@@ -30,7 +30,7 @@ body {
     right: 0;
     z-index: 1000;
     background-color: transparent;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 0 10%;
     display: flex;
     align-items: center;

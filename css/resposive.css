@@ -364,7 +364,45 @@
 
 @media (max-width: 695px) {
     #header .menu {
-        display: none;
+        position: absolute;
+        top: -1000px;
+        left: 0;
+        right: 0;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        background: #1f2023;
+        text-align: right;
+        transition: all .40s;
+    }
+
+
+    #header .menu ul {
+        flex-direction: column;
+    }
+
+
+    #header .menu ul a {
+        display: block;
+        padding: 1.2rem;
+        margin: 1.3rem;
+        border-right: 2px solid #ff4d05;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: white;
+    }
+
+   #header .menu ul a.active:hover {
+        color: #ff4d05;
+    } 
+   
+
+    #header .menu ul a.active {
+        color: white;
+    }
+
+    #header .menu.open {
+        top: 100%;
     }
 
     #header #menu-icon {
@@ -392,6 +430,10 @@
     .about {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    .about-img {
+        order: 2;
     }
 }
 
@@ -423,6 +465,16 @@
 
     #header {
         padding: 0 6%;
+    }
+
+    #header .menu ul a {
+        display: block;
+        padding: 1rem;
+        margin: 1rem;
+        border-right: 2px solid #ff4d05;
+        font-size: 18px;
+        transition: all .45s ease;
+        color: white;
     }
 
     section {

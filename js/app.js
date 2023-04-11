@@ -37,7 +37,7 @@ cambiarTexto();
 function cambiarTexto() {
   var width = document.documentElement.clientWidth;
 
-  if(width <= 1366) {
+  if (width <= 1366) {
     parrafo.innerHTML = `<p class="parrafoAbout">Hola, ¡bienvenido a mi página personal! Mi nombre es Jean Yerena, y soy un desarrollador
     frontend junior apasionado por crear experiencias digitales atractivas y accesibles. <br>
 
@@ -49,4 +49,18 @@ function cambiarTexto() {
     estoy emocionado por la oportunidad de aprender y crecer en esta industria en constante evolución.
 </p>`;
   }
+}
+
+// menu hamburguesa
+let iconMenu = document.querySelector('#menu-icon');
+let menu = document.querySelector('.menu');
+
+iconMenu.onclick = () => {
+  iconMenu.classList.toggle('bx-x');
+  menu.classList.toggle('open');
+}
+
+window.onscroll = () => {
+  iconMenu.classList.remove('bx-x');
+  menu.classList.remove('open');
 }
